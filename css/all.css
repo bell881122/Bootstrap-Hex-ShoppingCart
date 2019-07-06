@@ -1,0 +1,72 @@
+.btn-cart {
+    background-color: transparent;
+    position: relative;
+}
+
+.btn-cart .badge {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+}
+
+.badge-danger {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.badge-danger[href]:focus, .badge-danger[href]:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #bd2130;
+}
+
+.dropdown-menu {
+    min-width: 320px
+}
+
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+
+.jumbotron-bg {
+    /* banners.png */
+    background: url('https://images.unsplash.com/photo-1477901492169-d59e6428fc90?w=1350');
+    background-size: cover;
+    background-position: center center;
+    min-height: 400px;
+}
+
+/* 半透明背景 */
+
+.bg-lighter {
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.box-shadow {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, .15);
+    transition: box-shadow .3s linear;
+}
+
+.box-shadow:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, .25);
+}
+
+.btn.disabled {
+    pointer-events: none;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.alert-rounded {
+    border-radius: 50px;
+}
+
+/*Bootstrap內建 input-group-append失效另外補充*/
+
+.input-group-append {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
